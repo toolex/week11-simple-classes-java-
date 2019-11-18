@@ -8,7 +8,7 @@ public class PrinterTest {
 
     @Before
     public void before(){
-        printer = new Printer(100);
+        printer = new Printer(100, 100);
     }
 
     @Test
@@ -26,5 +26,10 @@ public class PrinterTest {
     public void enoughPaper(){
         printer.print(25, 2);
         assertEquals(50, printer.getSheetsLeft());
+    }
+
+    @Test
+    public void getToner(){
+        assertEquals(100, printer.getToner());
     }
 }

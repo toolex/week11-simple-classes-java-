@@ -1,8 +1,11 @@
 public class Printer {
     private int sheetsLeft;
+    private int toner;
 
-    public Printer(int sheetsLeft){
+    public Printer(int sheetsLeft, int toner){
         this.sheetsLeft = sheetsLeft;
+        this.toner = toner;
+
     }
     public int getSheetsLeft(){
         return this.sheetsLeft;
@@ -12,5 +15,9 @@ public class Printer {
         if (pages * copies <= this.sheetsLeft) {
             this.sheetsLeft -= pages * copies;
         }
+    }
+
+    public int getToner() {
+        return this.toner;
     }
 }
