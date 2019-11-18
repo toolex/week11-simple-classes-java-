@@ -21,4 +21,9 @@ public class CalculatorTest {
     public void subtract(){
         assertEquals(1.00, calculator.subtract(2.01, 1.01), 0.01);
     }
+
+    @Test
+    public void divide(){
+        assertEquals(2, calculator.divide(2.02, 1.01), 0.01);
+    }
 }

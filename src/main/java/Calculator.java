@@ -6,4 +6,8 @@ public class Calculator {
     public double subtract(double numb1, double numb2) {
         return numb1 - numb2;
     }
+
+    public double divide(double numb1, double numb2) {
+        return numb1 / numb2;
+    }
 }
