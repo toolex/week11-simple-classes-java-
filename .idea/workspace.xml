@@ -4,8 +4,6 @@
     <list default="true" id="46a3e9a1-b4e9-4b1d-b7e3-a12cb290573a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Printer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PrinterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PrinterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Printer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Printer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PrinterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PrinterTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

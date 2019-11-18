@@ -14,6 +14,7 @@ public class Printer {
     public void print(int pages, int copies) {
         if (pages * copies <= this.sheetsLeft) {
             this.sheetsLeft -= pages * copies;
+            this.toner -= pages * copies;
         }
     }
 
