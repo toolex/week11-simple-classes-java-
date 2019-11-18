@@ -7,4 +7,10 @@ public class Printer {
     public int getSheetsLeft(){
         return this.sheetsLeft;
     }
+
+    public void print(int pages, int copies) {
+        if (pages * copies <= this.sheetsLeft) {
+            this.sheetsLeft -= pages * copies;
+        }
+    }
 }
